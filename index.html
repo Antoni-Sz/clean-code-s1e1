@@ -11,21 +11,22 @@
         charset="utf-8">
 </head>
 <body class="body">
-    <div class="eisenhower-matrix">
+    <header class="eisenhower-matrix">
       <img class="img" src="./eisenhower-matrix.jpg">
       <a class="more-info"
          href="https://goal-life.com/page/
                method/matrix-eisenhower">
                Want more details?</a>
-    </div>
-    <div class="main-page">
-      <p id="add-task-section">
-      <label class="label-task" for="new-task">Add Item</label>
+    </header>
+    <main class="main-page">
+      <section id="add-task-section">
+      <h3 class="label-task" for="new-task">Add Item</h3>
       <div class="task-row-wrapper">
         <input id="new-task"class="task input-task" type="text">
         <button class="btm-all">Add</button>
      </div>
-    </p>
+    </section>
+    <section>
     <h3 class="title">Todo</h3>
     <ul class="lists" id="incomplete-tasks">
       <li class="sub-lists">
@@ -49,6 +50,8 @@
         </button>
         </li>
     </ul>
+  </section>
+  <section>
    <h3 class="title">Completed</h3>
    <ul class="lists" id="completed-tasks">
       <li class="sub-lists">
@@ -61,7 +64,8 @@
         </button>
       </li>
      </ul>
-    </div>
+    </section>
+    </main>
   <script src="app.js"></script>
 </body>
 </html>
