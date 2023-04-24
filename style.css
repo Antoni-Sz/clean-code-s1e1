@@ -47,11 +47,14 @@
   padding: 0px;
 }
 
-.sub-lists, .title {
+.sub-lists,
+.title {
   list-style: none;
 }
 
-.input-task,.task-input,.btm-all{
+.input-task,
+.task-input,
+.btm-all{
   outline: none;
 }
 
@@ -80,7 +83,8 @@
   text-transform: uppercase;
 }
 
-.input-task,.task-input[type="text"] {
+.input-task,
+.task-input[type="text"] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
